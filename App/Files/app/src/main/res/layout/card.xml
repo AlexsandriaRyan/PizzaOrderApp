@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="220dp"
+            android:padding="25dp"
+            android:background="@drawable/card"
+            android:gravity="center"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/viewCardCart">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                app:srcCompat="@drawable/pizza"
+                android:id="@+id/imgItem"
+                android:layout_weight="4"
+                android:layout_gravity="center" />
+
+        <TextView
+                android:text="Text"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/txtName"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMaxTextSize="16sp"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeStepGranularity="4sp"
+                android:fontFamily="@font/dmsans_regular"
+                android:textSize="16sp" />
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/lineAddSub"
+                android:visibility="visible">
+
+            <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/sub"
+                    android:id="@+id/btnSub"
+                    android:layout_weight="0.7"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:padding="2dp"
+                    android:background="#00FFFFFF" />
+
+            <TextView
+                    android:text="@string/zero"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtQuantity"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:fontFamily="@font/dmsans_regular"
+                    android:maxLines="1" />
+
+            <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/add"
+                    android:id="@+id/btnAdd"
+                    android:layout_weight="0.7"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:padding="2dp"
+                    android:background="#00FFFFFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

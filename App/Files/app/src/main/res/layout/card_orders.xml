@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:background="@drawable/card_wide"
+            android:gravity="center"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/viewCardOrder"
+            android:orientation="vertical"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            <TextView
+                    android:text="Order Number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtOrderNumber"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/hitandrun_regular"
+                    android:gravity="center|left"
+                    android:textColor="@color/yellow"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="30sp"
+                    android:autoSizeMinTextSize="18sp"
+                    android:autoSizeStepGranularity="4sp"
+                    android:maxLines="1"
+                    android:textSize="30sp" />
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2">
+
+                    <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/edit"
+                            android:id="@+id/btnEditOrders"
+                            android:layout_weight="1"
+                            android:scaleType="fitCenter"
+                            android:backgroundTint="#00FFFFFF" />
+
+                    <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/delete"
+                            android:id="@+id/btnDeleteOrders"
+                            android:layout_weight="1"
+                            android:scaleType="fitCenter"
+                            android:backgroundTint="#00FFFFFF" />
+                </LinearLayout>
+
+                <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5">
+
+            <TextView
+                    android:text="DateTime"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtDateTime"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:textColor="@color/blue"
+                    android:fontFamily="@font/dmsans_regular"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="24sp"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeStepGranularity="4sp"
+                    android:textSize="24sp"
+                    android:maxLines="4" />
+
+            <TextView
+                    android:text="Price"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtPrice"
+                    android:layout_weight="1"
+                    android:gravity="center|right"
+                    android:textColor="@color/blue"
+                    android:fontFamily="@font/dmsans_regular"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="24sp"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeStepGranularity="4sp"
+                    android:textSize="24sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

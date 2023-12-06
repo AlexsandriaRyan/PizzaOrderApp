@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- *** General ***-->
+    <string name="app_name">Cheesus Crust</string>
+    <string name="language">Langue</string>
+    <string name="english">English</string>
+    <string name="french">Français</string>
+    <string name="new_order">Nouvelle Commande</string>
+    <string name="all_orders">Commandes</string>
+    <string name="change_language">Modifier la Langue</string>
+    <string name="pick_size">Choisissez la Taille</string>
+    <string name="toppings">Garnitures</string>
+    <string name="zero">0</string>
+    <string name="add_to_cart">Ajouter à la Commande</string>
+    <string name="continue_cart">Continuer</string>
+    <string name="hold_up">Retourner</string>
+    <string name="back">Retourner</string>
+    <string name="checkout">Commander</string>
+    <string name="confirm">Confirmer</string>
+    <string name="ok">OK</string>
+    <string name="subtotal">SOUS-TOTAL</string>
+    <string name="total">Total</string>
+    <string name="cart">Votre Commande</string>
+    <string name="customer_information">Information Clientèle</string>
+    <string name="edit">Modifier</string>
+
+    <string name="main_menu">Menu Principal</string>
+    <string name="search">Rechercher</string>
+    <string name="order_details">Détails</string>
+    <string name="order">Commande</string>
+    <string name="is_confirmed">est confirmée</string>
+    <string name="order_number">Numéro de Commande</string>
+    <string name="delete">Supprimer</string>
+    <string name="confirm_delete">Supprimer la commande</string>
+
+    <!-- *** Errors ***-->
+    <string name="empty_cart">Oops! Votre commande est vide.</string>
+    <string name="error_name">Le nom ne peut contenir que des caractères.</string>
+    <string name="error_phone">Le numéro de téléphone doit comporter entre 9 et 10 chiffres.</string>
+    <string name="error_email">L\'e-mail n\'est pas une adresse valide.</string>
+    <string name="error_address">L\'adresse n\'est pas une adresse valide.</string>
+
+    <!-- *** Sizes ***-->
+    <string name="small">Petite</string>
+    <string name="medium">Moyenne</string>
+    <string name="large">Grande</string>
+    <string name="xlarge">Jumbo</string>
+
+    <!-- *** Toppings ***-->
+    <string name="banana_peppers">Poivrons Banane</string>
+    <string name="bbq_chicken">Poulet Grillé</string>
+    <string name="cheese">Fromage</string>
+    <string name="ham">Jambon</string>
+    <string name="onion">Oignon</string>
+    <string name="pepperoni">Pepperoni</string>
+
+    <!-- *** Customer Info ***-->
+    <string name="name">Nom</string>
+    <string name="phone">Téléphone</string>
+    <string name="email">Email</string>
+    <string name="address">Adresse</string>
+    <string name="notes">Notes</string>
+
+</resources>

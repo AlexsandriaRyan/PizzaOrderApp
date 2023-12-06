@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- *** General ***-->
+    <string name="app_name">Cheesus Crust</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="french">Français</string>
+    <string name="new_order">New Order</string>
+    <string name="all_orders">All Orders</string>
+    <string name="change_language">Change Language</string>
+    <string name="pick_size">Pick A Size</string>
+    <string name="toppings">Toppings</string>
+    <string name="zero">0</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="continue_cart">Continue</string>
+    <string name="hold_up">Hold Up</string>
+    <string name="back">Back</string>
+    <string name="checkout">Checkout</string>
+    <string name="confirm">Confirm</string>
+    <string name="ok">OK</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="total">Total</string>
+    <string name="cart">Cart</string>
+    <string name="customer_information">Customer Information</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="search">Search</string>
+    <string name="order_details">Order Details</string>
+    <string name="order">Order</string>
+    <string name="is_confirmed">is confirmed</string>
+    <string name="order_number">Order Number</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete">Delete order</string>
+    <string name="edit">Edit</string>
+
+    <!-- *** Errors ***-->
+    <string name="empty_cart">Oops! There is nothing in your cart.</string>
+    <string name="error_name">Name can only contain characters.</string>
+    <string name="error_phone">Phone number must be between 9-10 digits.</string>
+    <string name="error_email">Email is not a valid address.</string>
+    <string name="error_address">Address is not a valid address.</string>
+
+    <!-- *** Sizes ***-->
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+    <string name="xlarge">X-Large</string>
+
+    <!-- *** Toppings ***-->
+    <string name="banana_peppers">Banana Peppers</string>
+    <string name="bbq_chicken">BBQ Chicken</string>
+    <string name="cheese">Cheese</string>
+    <string name="ham">Ham</string>
+    <string name="onion">Onion</string>
+    <string name="pepperoni">Pepperoni</string>
+
+    <!-- *** Customer Info ***-->
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="notes">Notes</string>
+
+</resources>
