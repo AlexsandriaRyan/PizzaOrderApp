@@ -26,5 +26,8 @@
 - Order Date / Time: cannot be editable.
 - Customer Information: can be a single text field or multiple fields. Validate as required.
 
+## Video
+There is a video that walks through the code and an example presenation of this project. [Click Here](https://www.youtube.com/watch?v=-XnqZxC3zeA&list=PLwM3g8Oap6VecwqRKiadgIeYHg2sb00WV&index=2&ab_channel=AlexRyan)
+
 ## Copyright Notice
 © 2022 Alexsandria Ryan All Rights Reserved.
